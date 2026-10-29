@@ -102,3 +102,8 @@ Proprietary software. All rights reserved by Fullkod, except the portions that c
 
 - Special thanks to all libraries and frameworks that made Hiyori possible.
 - Shoutout to the community for supporting and using Hiyori.
+
+<!-- fullkod-signature -->
+---
+
+<a href="https://fullkod.com/?ref=klaushop"><img src="https://fullkod.com/brand/fullkod-symbol.svg" width="20" height="20" align="center" alt="Fullkod"></a> Built by **[Fullkod](https://fullkod.com/?ref=klaushop)**
