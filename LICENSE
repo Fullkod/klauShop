@@ -1,0 +1,45 @@
+Copyright (c) 2025-2026 Fullkod (https://fullkod.com). All rights reserved.
+
+This software and its source code are the property of Fullkod, except for the
+third-party portions listed below. The repository is publicly visible for
+hosting and review purposes only; that visibility does not grant any license.
+
+No permission is granted to use, copy, modify, merge, publish, distribute,
+sublicense or sell this software, in whole or in part, without prior written
+permission from Fullkod.
+
+Contact: contact@fullkod.com
+
+--------------------------------------------------------------------------------
+Third-party notices
+--------------------------------------------------------------------------------
+
+This project started as a fork of Hiyori (https://github.com/clonglam/HIYORI-master),
+by CLong Lam, released under the MIT License. The portions that come from Hiyori
+remain under the following terms:
+
+  MIT License
+
+  Copyright (c) 2024 CLong Lam
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+
+Hiyori in turn started from the AWS Amplify Next.js starter (Copyright
+Amazon.com, Inc. or its affiliates), released under the MIT No Attribution
+License, which requires no notice.

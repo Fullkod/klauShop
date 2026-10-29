@@ -57,7 +57,7 @@ Aplican a TODO el trabajo: features, fixes, refactors.
 | Checkout | **WhatsApp** (unico). Stripe se elimino del todo el 2026-10-04 (rutas, paquetes y env vars) |
 | Notificaciones | WhatsApp automatico via OpenWA (trigger en `orders` → pg_net) |
 | Tests | Jest + Testing Library (cobertura minima). Cypress instalado sin uso |
-| Deploy | Vercel (GitHub `CreativesCode/klauShop`, rama `main`) |
+| Deploy | Vercel (GitHub `Fullkod/klauShop`, rama `main`) |
 
 **Prohibido sin pedirlo el usuario:** migrar a Next 16/React 19, cambiar Drizzle por otro ORM, sustituir GraphQL por
 queries directas, introducir Polar/Prisma. Detalle y motivo en memoria (`.titan/memory/project/decision-no-golden-path.md`).

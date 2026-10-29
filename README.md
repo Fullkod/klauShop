@@ -96,7 +96,7 @@ We welcome contributions to Hiyori! Please read our Contributing Guide for detai
 
 ## License
 
-Hiyori is licensed under the MIT License. See the license file for more information.
+Proprietary software. All rights reserved by Fullkod, except the portions that come from [Hiyori](https://github.com/clonglam/HIYORI-master) (MIT, by CLong Lam) — see [LICENSE](LICENSE).
 
 ## Acknowledgments
 
