@@ -1,3 +1,4 @@
+import { FullkodCredit } from "@/components/layouts/FullkodCredit";
 import { siteConfig } from "@/config/site";
 import { gql } from "@/gql";
 import { filterVisibleCollections } from "@/features/collections/server/visibleCollections";
@@ -110,9 +111,12 @@ async function MainFooter({}: Props) {
           ))}
         </div>
 
-        <div className="border-t border-surface-tint py-[18px] text-[13px] text-neutral-500">
-          &copy; {new Date().getFullYear()} {siteConfig.name}. Todos los
-          derechos reservados.
+        <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-2 border-t border-surface-tint py-[18px] text-[13px] text-neutral-500">
+          <span>
+            &copy; {new Date().getFullYear()} {siteConfig.name}. Todos los
+            derechos reservados.
+          </span>
+          <FullkodCredit />
         </div>
       </div>
     </footer>

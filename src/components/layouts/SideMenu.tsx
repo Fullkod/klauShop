@@ -18,6 +18,7 @@ import Branding from "./Branding";
 import type { Collection } from "./SideMenuCollections";
 import SideMenuCollections from "./SideMenuCollections";
 import { Icons } from "./icons";
+import { FullkodCredit } from "@/components/layouts/FullkodCredit";
 
 // Shared so the mobile tab bar ("Categorías") can open the menu
 export const useSideMenu = create<{
@@ -123,11 +124,12 @@ export function SideMenu({ collections }: SideMenuProps) {
 
           {/* Footer con información de contacto */}
           <SheetFooter className="mt-auto flex-col items-start gap-4 border-t border-line pt-5">
-            <div className="text-[13px] text-neutral-500">
+            <div className="flex flex-col items-start gap-2 text-[13px] text-neutral-500">
               <p className="text-center">
                 &copy; {new Date().getFullYear()} {siteConfig.name}. Todos los
                 derechos reservados.
               </p>
+              <FullkodCredit />
             </div>
           </SheetFooter>
         </div>

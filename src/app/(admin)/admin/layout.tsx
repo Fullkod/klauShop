@@ -5,6 +5,7 @@ import { signInRedirect } from "@/lib/safeRedirect";
 import createServerClient, { createClient } from "@/lib/supabase/server";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
+import { FullkodCredit } from "@/components/layouts/FullkodCredit";
 
 interface DashboardLayoutProps {
   children: React.ReactNode;
@@ -60,6 +61,9 @@ export default async function DashboardLayout({
         />
         <main className="mx-auto flex w-full max-w-admin flex-col gap-4 px-4 py-5 lg:gap-6 lg:px-8 lg:py-8">
           {children}
+          <div className="flex justify-end pt-6">
+            <FullkodCredit />
+          </div>
         </main>
       </div>
       <AdminTabBar pendingCount={pendingCount} className="lg:hidden" />
